@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: small;
+    }
+    
+    h1 {
+    color: green;
+    }
+    #intro {
+        font-size: 130%;
+        border: 1px solid black;
+        }
+        .important {
+            background-color: yellow;
+            }
+            #intro .important {
+                background-color: orange;
+                }
+                #intro .important em {
+                    color: white;
+                    }
+                    @media (min-width: 500px){
+                        body {
+                            background-color:rgb(231, 247, 239 );
+                
+                
+                        }
+                    }
+                
+                    @media (max-width: 499px){
+                        body {
+                            background-color: blue ;
+                
+                
+                        }
+                    }
+    em {
+    color: red;
+    }
